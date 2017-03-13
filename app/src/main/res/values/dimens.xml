@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="txtSizetitle">40dp</dimen>
+    <dimen name="marginbtnarea">250dp</dimen>
+    <dimen name="paddingtitle">20dp</dimen>
+    <dimen name="sizeimg">90dp</dimen>
+    <dimen name="dimenformula">20dp</dimen>
+
+
+    <dimen name="dimen_boton">16dp</dimen>
+    <dimen name="margintopbutton">40dp</dimen>
+    <dimen name="margintop1button">70dp</dimen>
+    <dimen name="dimenwidht">150dp</dimen>
+    <dimen name="dimenheight">60dp</dimen>
+</resources>

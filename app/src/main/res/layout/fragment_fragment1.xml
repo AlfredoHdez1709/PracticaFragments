@@ -1,0 +1,44 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ahrsoft.movil.practicafragments.Fragment1">
+
+    <EditText
+
+        android:id="@+id/txtFibona"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:layout_marginTop="@dimen/margintopbutton"
+        android:hint="@string/txtHitFibo"
+        android:layout_margin="@dimen/paddingtitle"
+        android:padding="@dimen/paddingtitle"/>
+
+    <TextView
+        android:id="@+id/seriefibo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtFibona"
+        android:padding="@dimen/paddingtitle"
+        android:textAlignment="center"
+        android:layout_margin="@dimen/paddingtitle"
+        android:text=""/>
+
+    <Button
+        android:id="@+id/btnFobi"
+        android:layout_width="@dimen/dimenwidht"
+        android:layout_height="@dimen/dimenheight"
+        android:background="@color/backgroundbutton"
+        android:layout_below="@id/seriefibo"
+        android:textColor="@color/textcolor"
+        android:textSize="@dimen/paddingtitle"
+        android:text="@string/txtfibo"
+        android:layout_margin="@dimen/paddingtitle"
+        android:layout_centerHorizontal="true"
+        />
+
+
+
+
+</RelativeLayout>

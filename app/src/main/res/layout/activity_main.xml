@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/dimen_boton"
+    android:background="@color/backgroundConten"
+    tools:context="com.ahrsoft.movil.practicafragments.MainActivity">
+
+
+
+    <TextView
+        android:id="@+id/txttle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/txtSizetitle"
+        android:textAlignment="center"
+        android:text="@string/title"/>
+
+    <Button
+        android:id="@+id/btnarea"
+        android:layout_width="@dimen/dimenwidht"
+        android:layout_height="@dimen/dimenheight"
+        android:text="@string/titlearea"
+        android:layout_below="@id/txttle"
+        android:onClick="ClickArea"
+        android:textColor="@color/textcolor"
+        android:layout_alignParentRight="true"
+        android:textSize="@dimen/dimenformula"
+        android:layout_marginTop="@dimen/margintop1button"
+        android:background="@color/backgroundbutton"/>
+
+    <Button
+        android:id="@+id/btnSeries"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimenheight"
+        android:layout_below="@id/btnarea"
+        android:onClick="ClickSerie"
+        android:background="@color/backgroundbutton"
+        android:textColor="@color/textcolor"
+        android:layout_marginTop="@dimen/margintopbutton"
+        android:textSize="@dimen/dimenformula"
+        android:text="@string/titleseriesbtn"/>
+
+    <Button
+        android:id="@+id/btncontact"
+        android:layout_width="@dimen/dimenwidht"
+        android:layout_height="@dimen/dimenheight"
+        android:layout_below="@id/btnSeries"
+        android:background="@color/backgroundbutton"
+        android:textColor="@color/textcolor"
+        android:layout_marginTop="@dimen/margintopbutton"
+        android:textSize="@dimen/dimenformula"
+        android:layout_alignParentLeft="true"
+        android:onClick="ClickContac"
+        android:text="@string/btntitlecontac"/>
+
+
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/btnSearch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:src="@drawable/ic_exit"
+        android:layout_marginRight="@dimen/dimen_boton"
+        android:layout_marginBottom="@dimen/dimen_boton"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:onClick="ClickSalir"
+        android:layout_marginEnd="@dimen/dimen_boton" />
+
+</RelativeLayout>

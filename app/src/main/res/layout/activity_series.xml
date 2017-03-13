@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundConten"
+    tools:context="com.ahrsoft.movil.practicafragments.SeriesActivity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <fragment
+                android:id="@+id/frag1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                class="com.ahrsoft.movil.practicafragments.Fragment1"
+                tools:layout="@layout/fragment_fragment1"/>
+
+            <fragment
+                android:id="@+id/frag2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/frag1"
+                class="com.ahrsoft.movil.practicafragments.Fragment2"
+                tools:layout="@layout/fragment_fragment2"/>
+
+
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/fab"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|end"
+                android:src="@drawable/ic_exit"
+                app:pressedTranslationZ="@dimen/dimen_boton"
+                android:layout_marginRight="@dimen/dimen_boton"
+                android:layout_marginEnd="@dimen/dimen_boton"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="@dimen/dimen_boton"
+                android:onClick="ClickHome1"/>
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

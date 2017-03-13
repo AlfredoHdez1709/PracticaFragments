@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Practicafragments</string>
+    <string name="title">Areas y Perimetros</string>
+    <string name="titlearea">Áreas</string>
+    <string name="titleseriesbtn">Series</string>
+    <string name="btntitlecontac">Contacto</string>
+    <string name="aquivaelahrea">Formula para el área es:</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="txtHitFibo">Teclea n numero</string>
+    <string name="txtfibo">Fibonacci</string>
+    <string name="txtprimos">Numero pRIMOS</string>
+</resources>

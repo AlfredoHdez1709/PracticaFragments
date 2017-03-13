@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundConten"
+    tools:context="com.ahrsoft.movil.practicafragments.AreasActivity">
+
+
+
+
+    <TextView
+        android:id="@+id/txttitleareas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/titlearea"
+        android:textSize="@dimen/txtSizetitle"
+        android:padding="@dimen/paddingtitle"/>
+
+
+    <LinearLayout
+        android:id="@+id/contac1"
+        android:layout_below="@id/txttitleareas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/margintop1button"
+        android:gravity="center"
+        >
+
+        <ImageView
+            android:id="@+id/pic1"
+            android:layout_width="@dimen/sizeimg"
+            android:layout_height="@dimen/sizeimg"
+            android:src="@drawable/imgcirculo"
+            android:layout_margin="@dimen/dimen_boton"
+            android:onClick="clickCirculo"/>
+
+        <ImageView
+            android:id="@+id/pic2"
+            android:layout_width="@dimen/sizeimg"
+            android:layout_height="@dimen/sizeimg"
+            android:src="@drawable/imgcuadrado"
+            android:layout_margin="@dimen/dimen_boton"
+            android:onClick="clickCuadrado"/>
+
+        <ImageView
+            android:id="@+id/pic3"
+            android:layout_width="@dimen/sizeimg"
+            android:layout_height="@dimen/sizeimg"
+            android:layout_margin="@dimen/dimen_boton"
+            android:src="@drawable/imgtriangulo"
+            android:onClick="clickTriangulo"
+            />
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/textouno"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/contac1"
+        android:text="@string/aquivaelahrea"
+        android:textSize="@dimen/txtSizetitle"
+        android:padding="@dimen/paddingtitle"/>
+
+
+    <TextView
+        android:id="@+id/txtFormula"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textouno"
+        android:textAlignment="center"
+        android:padding="@dimen/paddingtitle"
+        android:textSize="@dimen/dimenformula"
+        android:textColor="@color/colorPrimary"/>
+
+
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:src="@drawable/ic_exit"
+        app:pressedTranslationZ="@dimen/dimen_boton"
+        android:layout_marginRight="@dimen/dimen_boton"
+        android:layout_marginEnd="@dimen/dimen_boton"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="@dimen/dimen_boton"
+        android:onClick="ClickHome"/>
+
+
+</RelativeLayout>
